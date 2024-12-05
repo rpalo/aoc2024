@@ -2,11 +2,13 @@ import { parseArgs } from "jsr:@std/cli/parse-args";
 import { day1 } from "./day1.ts";
 import { day2 } from "./day2.ts";
 import { day3 } from "./day3.ts";
+import { day4 } from "./day4.ts";
 
 const DAYS = [
   day1,
   day2,
   day3,
+  day4,
 ];
 
 function runDay(day: number) {
