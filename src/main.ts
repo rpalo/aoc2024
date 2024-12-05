@@ -18,8 +18,10 @@ function runDay(day: number) {
     console.log(`Day ${day} not available.`);
     Deno.exit(1);
   }
+  const start = performance.now();
   const text = Deno.readTextFileSync(`data/day${day}.txt`);
   DAYS[day - 1](text);
+  console.log(`Elapsed: ${performance.now() - start}`);
 }
 
 if (import.meta.main) {
