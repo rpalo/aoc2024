@@ -4,6 +4,11 @@ import { day2 } from "./day2.ts";
 import { day3 } from "./day3.ts";
 import { day4 } from "./day4.ts";
 import { day5 } from "./day5.ts";
+import { day6 } from "./day6.ts";
+import { day7 } from "./day7.ts";
+import { day8 } from "./day8.ts";
+import { day9 } from "./day9.ts";
+import { day10 } from "./day10.ts";
 
 const DAYS = [
   day1,
@@ -11,6 +16,11 @@ const DAYS = [
   day3,
   day4,
   day5,
+  day6,
+  day7,
+  day8,
+  day9,
+  day10,
 ];
 
 function runDay(day: number) {
